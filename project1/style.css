@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif, Georgia, arial;
+     font-size: 16px;
+     line-height: 1.5;
+     color: white;
+     background-color: rgba(0, 44, 139, 0.76);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, 
+h2, 
+h3, 
+h6 {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background-color: rgba(81, 144, 226, 0.781);
+    color:white;
+    height: 60px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .navlink {
+    display: flex;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar a:hover{
+    background-color: burlywood;
+    color: black;
+}
+
+.navbar ul li:nth-of-type(1){
+    background: blue;
+}
+
+.header {
+    background-color: rgba(0, 102, 255, 0.61);
+    color:black;
+    min-height: 400px;
+}
+
+.header h1 {
+    line-height: 1;
+    text-align: center;
+    font-size: 42px;
+
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header img{
+    margin: 50px 0px 0px 80px;
+    max-width: 100%;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+}
+
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxes .box {
+    flex: 1;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 20px 7px rgba(61,29,189,0.45);
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(5, 5, 173);
+}
+
+.footer{
+    background-color: rgb(11, 11, 145);
+    height: auto;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 150px;
+}
+
+.footcard {
+    /* background-color: rgb(20, 20, 196); */
+    justify-content: center;
+    padding: 5px 15px;
+    
+}
+.footcard .footlink a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.footcard h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer .footcopyright{
+   justify-content: center;
+}
+.footcopyright h6{
+    font-size: 14px;
+}
